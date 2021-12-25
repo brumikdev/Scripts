@@ -1,0 +1,40 @@
+* {
+    color: #eee;
+    font-size: 30px;
+   }  
+   .bg {
+       background-color: #131e29;
+    }
+
+
+    .container {
+        position: fixed;
+        top: 50;
+        left: 50;
+        transform: translate(-50%, -50%);
+    }
+
+    .loadbar {
+        width: 100%;
+        background-color: #131e29;
+        height: 20px;
+
+        margin-left: 2px;
+        margin-right: 3px;
+
+        overflow: hidden;
+
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        display: block;
+    }
+
+    .progressbar {
+        width: 10%;
+        background-color: #FC0346;
+
+        position: absolute;
+        left: 10%;
+    }
+    
